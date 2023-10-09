@@ -1,0 +1,69 @@
+body {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: coral;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color: black;
+
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.produto {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ff6600;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #ff3300;
+}
+
+
+footer {
+  background-color: coral;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
